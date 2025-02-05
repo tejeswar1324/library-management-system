@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.issued{
+    height:70vh;
+    overflow-y: auto;
+    width:80vw;
+}
+
+.bookItem{
+    max-height: 250px
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 20vw
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.bookimage{
+    height:200px;
+    width:200px;
+}
+
+@media screen and (max-width:600px){
+    .main-content{
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: row;
+        height: 50px;
+        width:100vw;
+    }
+    
+}
